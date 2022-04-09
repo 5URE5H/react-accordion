@@ -1,0 +1,29 @@
+.accordion {
+  border: 1px solid #ccc;
+  margin: 0 2rem;
+  padding: .5rem;
+
+  &.active {
+    .title {
+      font-weight: bold;
+    }
+
+    .content {
+      display: block;
+    }
+  }
+
+  .header {
+    cursor: pointer;
+    text-align: start;
+
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .content {
+    display: none;
+    text-align: start;
+  }
+}
